@@ -25,6 +25,9 @@
       <module fileurl="file://$PROJECT_DIR$/Java_15/Java_15.iml" filepath="$PROJECT_DIR$/Java_15/Java_15.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_16/Java_16.iml" filepath="$PROJECT_DIR$/Java_16/Java_16.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_17/Java_17.iml" filepath="$PROJECT_DIR$/Java_17/Java_17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_18_01/Java_18_01.iml" filepath="$PROJECT_DIR$/Java_18_01/Java_18_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_18_01/Practice04/Practice04.iml" filepath="$PROJECT_DIR$/Java_18_01/Practice04/Practice04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week02_mini_practice/Week02_mini_practice.iml" filepath="$PROJECT_DIR$/Week02_mini_practice/Week02_mini_practice.iml" />
     </modules>
   </component>
 </project>
