@@ -10,6 +10,57 @@ public class Practice4 {
         final int INSERT = 155;
         final int DELETE = 127;
 
+        StringBuffer sb= new StringBuffer();
+        int step = (int)('a'-'A');
+        int curSor = 0;
+        int cmdIdx = 0;
+        boolean isShift = false;
+        boolean isCapsLock = false;
+        boolean isInsert = false;
+
+        while(cmdIdx != keyLog.length){
+            int cur = keyLog[cmdIdx];
+
+            if (cur==BACK_SPACE){
+                if(curSor ==0 ){
+                    cmdIdx++;
+                    continue;
+                }
+                sb.delete(curSor-1, curSor);
+                curSor = Math.max(0,curSor-1);
+            } else if (cur == SHIFT) {
+                isShift = true;
+            } else if (cur == CAPS_LOCK){
+                isCapsLock = !isCapsLock;
+            } else if (cur==SPACE_BAR){
+                //공백 넣기
+            }else if (cur== KEY_LEFT){
+                curSor =Math.max(0,curSor-1);
+            } else if (cur== KEY_RIGHT) {
+                curSor = Math.min(sb.length(), curSor+1);
+            } else if (cur == INSERT) {
+                isInsert = !isInsert;
+            } else if (cur == DELETE) {
+                if (curSor == sb.length()){
+                    cmdIdx ++;;
+                    continue;
+                }
+                sb.delete(curSor, curSor+1);
+            }else if (cur>=97 && cur <= 122){
+                int data = cur;
+                if(isCapsLock && isShift){
+                    data = cur;
+                } else if (isCapsLock || isShift) {
+                    data -= step;
+                }
+                isShift = false;
+                curSor += 1;
+            } else if (cur>=48 && cur <= 57) {
+                char[] spacialKey = {')','!','@','#','$','%','^','7'}
+            }
+        }
+
+
         return null;
     }
 
