@@ -22,7 +22,7 @@ public class Practice4 {
             int cur = keyLog[cmdIdx];
 
             if (cur==BACK_SPACE){
-                if(curSor ==0 ){
+                if(curSor == 0){
                     cmdIdx++;
                     continue;
                 }
@@ -34,6 +34,8 @@ public class Practice4 {
                 isCapsLock = !isCapsLock;
             } else if (cur==SPACE_BAR){
                 //공백 넣기
+                inputData(sb, ' ', curSor, isInsert);
+                curSor += 1;
             }else if (cur== KEY_LEFT){
                 curSor =Math.max(0,curSor-1);
             } else if (cur== KEY_RIGHT) {
@@ -53,15 +55,30 @@ public class Practice4 {
                 } else if (isCapsLock || isShift) {
                     data -= step;
                 }
+                inputData(sb, (char)data, curSor, isInsert);
                 isShift = false;
                 curSor += 1;
             } else if (cur>=48 && cur <= 57) {
-                char[] spacialKey = {')','!','@','#','$','%','^','7'}
+                if (isShift) {
+                    char[] spacialKey = {')', '!', '@', '#', '$', '%', '^', '&', '*', '('};
+                    inputData(sb, spacialKey[cur - '0'], curSor, isInsert);
+                }else {
+                    inputData(sb,(char)cur, curSor, isInsert);
+                }
+                isShift = false;
+                curSor += 1;
             }
+            cmdIdx++;
         }
+        return sb.toString();
+    }
 
-
-        return null;
+    public static void inputData(StringBuffer sb, char data, int curSor, boolean isInsert) {
+        if (isInsert && curSor < sb.length()) {
+            sb.setCharAt(curSor, data);
+        } else {
+            sb.insert(curSor, data);
+        }
     }
 
     public static void main(String[] args) {
