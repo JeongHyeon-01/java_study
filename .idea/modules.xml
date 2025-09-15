@@ -3,30 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_02_01/Java_02_01.iml" filepath="$PROJECT_DIR$/Java_02_01/Java_02_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_02_02/Java_02_02.iml" filepath="$PROJECT_DIR$/Java_02_02/Java_02_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_02_03/Java_02_03.iml" filepath="$PROJECT_DIR$/Java_02_03/Java_02_03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_02_04/Java_02_04.iml" filepath="$PROJECT_DIR$/Java_02_04/Java_02_04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_03_01/Java_03_01.iml" filepath="$PROJECT_DIR$/Java_03_01/Java_03_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_03_02/Java_03_02.iml" filepath="$PROJECT_DIR$/Java_03_02/Java_03_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_04/Java_04.iml" filepath="$PROJECT_DIR$/Java_04/Java_04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_05/Java_05.iml" filepath="$PROJECT_DIR$/Java_05/Java_05.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_06/Java_06.iml" filepath="$PROJECT_DIR$/Java_06/Java_06.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_07_01/Java_07_01.iml" filepath="$PROJECT_DIR$/Java_07_01/Java_07_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_07_02/Java_07_02.iml" filepath="$PROJECT_DIR$/Java_07_02/Java_07_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_08/Java_08.iml" filepath="$PROJECT_DIR$/Java_08/Java_08.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_09/Java_09.iml" filepath="$PROJECT_DIR$/Java_09/Java_09.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_10/Java_10.iml" filepath="$PROJECT_DIR$/Java_10/Java_10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_11/Java_11.iml" filepath="$PROJECT_DIR$/Java_11/Java_11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_12/Java_12.iml" filepath="$PROJECT_DIR$/Java_12/Java_12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_13_01/Java_13_01.iml" filepath="$PROJECT_DIR$/Java_13_01/Java_13_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_13_2/Java_13_2.iml" filepath="$PROJECT_DIR$/Java_13_2/Java_13_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_14/Java_14.iml" filepath="$PROJECT_DIR$/Java_14/Java_14.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_15/Java_15.iml" filepath="$PROJECT_DIR$/Java_15/Java_15.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_16/Java_16.iml" filepath="$PROJECT_DIR$/Java_16/Java_16.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_17/Java_17.iml" filepath="$PROJECT_DIR$/Java_17/Java_17.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_18_01/Java_18_01.iml" filepath="$PROJECT_DIR$/Java_18_01/Java_18_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_18_2/Java_18_2.iml" filepath="$PROJECT_DIR$/Java_18_2/Java_18_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_18_01/Practice04/Practice04.iml" filepath="$PROJECT_DIR$/Java_18_01/Practice04/Practice04.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week02_mini_practice/Week02_mini_practice.iml" filepath="$PROJECT_DIR$/Week02_mini_practice/Week02_mini_practice.iml" />
     </modules>
